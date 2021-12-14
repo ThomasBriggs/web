@@ -1,0 +1,48 @@
+.header {
+
+    nav {
+        padding: 24px;
+    }
+
+    &_logo {
+
+        img {
+
+        }
+
+    }
+
+    &_menu {
+
+        > span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $DarkBlue;
+
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+
+    }
+
+    &_links {
+        font-size: $font-small;
+        
+        > * {
+            padding: 10px;
+        }
+    }
+
+    button, .button {
+        padding: 1rem 1.875rem;
+        border-radius: 50px;
+        cursor: pointer;
+        color: $White;
+        border: none;
+        font-weight: 700;
+        background: linear-gradient(to right ,$LimeGreen, $BrightCyan)
+
+    }
+}
