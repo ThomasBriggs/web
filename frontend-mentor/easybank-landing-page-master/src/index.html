@@ -29,19 +29,20 @@
 <body>
 
   <header class="header">
+    <div id="overlay" class="overlay off"></div>
     <nav class="flex flex-jc-sb flex-ai-c">
-      <a href="/" class="header_logo">
+      <a href="#" class="header_logo">
         <img src="../images/logo.svg" alt=easybank>
       </a>
 
-      <a href="#" class="header_menu hide_for_desktop">
+      <a id="hamburger" href="#" class="header_menu hide_for_desktop">
         <span></span>
         <span></span>
         <span></span>
       </a>
 
       <div class="header_links hide_for_mobile">
-        <a href="#">Home</a>
+        <a href="#" class="current">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
         <a href="#">Blog</a>
@@ -51,10 +52,16 @@
       <button type="button" class="hide_for_mobile">Request Invite</button>
 
     </nav>
-  </header>
 
-  <!-- 
-  
+    <div id="mobile-menu" class="header_mobile-menu hide_for_desktop">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Blog</a>
+      <a href="#">Careers</a>
+    </div>
+
+  </header>
   Next generation digital banking
 
   Take your financial life online. Your Easybank account will be a one-stop-shop
@@ -120,7 +127,7 @@
 
   Request Invite
 
-  © Easybank. All Rights Reserved -->
+  © Easybank. All Rights Reserved
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
