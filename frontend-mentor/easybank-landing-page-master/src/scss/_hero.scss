@@ -1,0 +1,41 @@
+.hero {
+
+    &_image{
+
+        &.mobile{
+
+            z-index: -1;
+            position: relative;
+            height: 280px;
+
+
+            > img:first-child {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center bottom;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+                
+            }
+
+            > img:last-child {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                object-fit: cover;
+                object-position: center bottom;
+            }
+
+        }
+
+    }
+
+    &_text {
+        text-align: center;
+    }
+
+}

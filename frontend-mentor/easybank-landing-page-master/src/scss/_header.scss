@@ -67,7 +67,8 @@
                 background: linear-gradient(to right, $LimeGreen, $BrightCyan);
                 left: 0;
                 right: 0;
-                bottom: -27px;
+                top: 38px;
+                bottom: 0;
                 border-top-left-radius: 2px;
                 border-top-right-radius: 2px;
             }
@@ -83,29 +84,18 @@
         }
     }
 
-    button, .button {
-        padding: 0.750rem 1.750rem;
-        border-radius: 50px;
-        cursor: pointer;
-        color: $White;
-        border: none;
-        font-weight: 700;
-        background: linear-gradient(to right ,$LimeGreen, $BrightCyan)
-
-    }
-
     &_mobile-menu {
         display: none;
+        position: absolute;
         background-color: $White;
+        margin-top: 1.625rem;
         padding: 1.625rem;
         text-align: center;
-        margin-left: 20px;
-        margin-right: 20px;
-        // position: absolute;
         width: 80%;
         justify-content: center;
-        border-radius: 5px;
-        position: absolute;
+        border-radius: 5px; 
+        left: 50%;
+        transform: translate(-50%, 0);
 
         a {
             padding: 0.625rem;
