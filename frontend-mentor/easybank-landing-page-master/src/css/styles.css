@@ -149,10 +149,14 @@ button, .button {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 45% 55%;
   align-items: center;
   height: 600px;
+}
+@media (min-width: 64em) {
+  .hero {
+    display: grid;
+    grid-template-columns: 45% 55%;
+  }
 }
 .hero_image {
   order: 1;

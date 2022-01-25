@@ -1,8 +1,11 @@
 .hero {
 
+    @include breakpoint-up(large) {
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
 
-    display: grid;
-    grid-template-columns: 45% 55%;
+    
     align-items: center;
     height: 600px;
 
